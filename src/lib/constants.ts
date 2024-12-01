@@ -1,3 +1,3 @@
-const keywords = process.env.KEYWORDS?.split(',');
+const keywords = process.env.KEYWORDS?.split(',') ?? [];
 
 export default keywords;
