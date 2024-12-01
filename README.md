@@ -4,7 +4,7 @@ This repo contains the code for the Tech Bluesky 💻 feed that was forked from 
 
 ## Feed
 
-- [Tech Bluesky 💻](https://bsky.app/profile/did:plc:gzymh5fce2h7hvjm7vsqh2l4/feed/tech-bluesky) - Every post with a (https://survey.stackoverflow.co/2024/technology/) keyword hashtag, along with variations of #TechTwitter for Bluesky.
+- [Tech Bluesky 💻](https://bsky.app/profile/did:plc:gzymh5fce2h7hvjm7vsqh2l4/feed/tech-bluesky) - Every post with a https://survey.stackoverflow.co/2024/technology/ keyword hashtag, along with variations of #TechBluesky.
 
 ## Algorithm
 
@@ -17,5 +17,5 @@ The feed uses the following strategy to filter posts:
 
 ## Thanks
 
-[@hipstersmoothie](https://github.com/hipstersmoothie)
+[@hipstersmoothie](https://github.com/hipstersmoothie)<br />
 [@chapel](https://github.com/chapel)

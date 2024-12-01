@@ -23,7 +23,7 @@
     "url": "https://github.com/conrmahr/tech-bluesky-jetstream/issues"
   },
   "homepage": "https://github.com/conrmahr/tech-bluesky-jetstream",
-  "description": "Every post with a (https://survey.stackoverflow.co/2024/technology/) keyword hashtag, along with variations of #TechTwitter for Bluesky.",
+  "description": "Bluesky custom-feed with keyword hashtag.",
   "dependencies": {
     "@atproto/api": "^0.13.18",
     "@atproto/identity": "^0.4.3",
