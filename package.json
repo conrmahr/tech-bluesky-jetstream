@@ -1,0 +1,50 @@
+{
+  "name": "tech-bluesky-jetstream",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/entry.ts",
+  "scripts": {
+    "start": "tsx src/entry.ts",
+    "lint": "eslint .",
+    "publish": "tsx scripts/publish.ts"
+  },
+  "keywords": [
+    "bluesky",
+    "custom-feed",
+    "jetstream",
+    "techbluesky",
+    "techtwitter",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Conor Meagher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conrmahr/tech-bluesky-jetstream/issues"
+  },
+  "homepage": "https://github.com/conrmahr/tech-bluesky-jetstream",
+  "description": "Every post with a (https://survey.stackoverflow.co/2024/technology/) keyword hashtag, along with variations of #TechTwitter for Bluesky.",
+  "dependencies": {
+    "@atproto/api": "^0.13.18",
+    "@atproto/identity": "^0.4.3",
+    "@atproto/xrpc-server": "^0.7.3",
+    "@skyware/jetstream": "^0.2.1",
+    "cron": "^3.2.1",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.1.0",
+    "libsql": "^0.4.7",
+    "tsx": "^4.19.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/node": "^22.10.1",
+    "@types/ws": "^8.5.13",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0",
+    "inquirer": "^12.1.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
+  }
+}
