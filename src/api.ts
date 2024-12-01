@@ -7,7 +7,7 @@ import {
 import { db } from "./lib/db.js";
 
 const server = Fastify({
-  logger: true,
+  logger: false,
 });
 
 // Tell Bluesky about the feed
