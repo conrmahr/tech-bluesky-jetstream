@@ -39,6 +39,9 @@ export async function getPosts({
         createdAt >= ${cursorDateTime}
       ORDER BY
         createdAt DESC
+      LIMIT
+        ${limit}
+        ${cursor.index ? `OFFSET ${cursor.index}` : ""};
       `
     )
     .all() as PostWithData[];
